@@ -6,7 +6,6 @@ package creational.abstractFactory;
 public class Sega extends Game {
 
     private String game;
-    private System system;
 
     public String getGame() {
         return game;
@@ -14,14 +13,6 @@ public class Sega extends Game {
 
     public void setGame(String game) {
         this.game = game;
-    }
-
-    public System getSystem() {
-        return system;
-    }
-
-    public void setSystem(System system) {
-        this.system = system;
     }
 
     @Override
