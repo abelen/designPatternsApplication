@@ -19,4 +19,11 @@ public interface AdvancedMediaPlayer {
      * @param fileName the filename
      */
     public void playMp4(String fileName);
+
+    /**
+     * Plays avi file.
+     *
+     * @param fileName
+     */
+    public void playAvi(String fileName);
 }

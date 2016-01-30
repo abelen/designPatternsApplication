@@ -16,4 +16,9 @@ public class VlcPlayer implements AdvancedMediaPlayer {
         System.out.println("Playing mp4 file. Name: " + fileName);
     }
 
+    @Override
+    public void playAvi(String fileName) {
+        System.out.println("Playing avi file. Name: " + fileName);
+    }
+
 }

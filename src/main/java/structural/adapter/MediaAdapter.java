@@ -14,6 +14,8 @@ public class MediaAdapter implements MediaPlayer {
             advancedMediaPlayer = new VlcPlayer();
         } else if (audioType.equalsIgnoreCase("mp4")) {
             advancedMediaPlayer = new Mp4Player();
+        } else if (audioType.equalsIgnoreCase("avi")) {
+            advancedMediaPlayer = new AviPlayer();
         }
     }
 
@@ -24,6 +26,8 @@ public class MediaAdapter implements MediaPlayer {
             advancedMediaPlayer.playVlc(fileName);
         } else if (audioType.equalsIgnoreCase("mp4")) {
             advancedMediaPlayer.playMp4(fileName);
+        } else if (audioType.equalsIgnoreCase("avi")) {
+            advancedMediaPlayer.playAvi(fileName);
         }
     }
 }
