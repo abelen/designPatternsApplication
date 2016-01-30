@@ -2,6 +2,7 @@ package structural.adapter;
 
 /**
  * Mp4 Player.
+ * Source code from http://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
  */
 public class Mp4Player implements AdvancedMediaPlayer {
 

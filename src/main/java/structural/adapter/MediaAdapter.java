@@ -2,6 +2,7 @@ package structural.adapter;
 
 /**
  * Media Adapter class that adapts to the Advanced Media Player.
+ * Source code from http://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
  */
 public class MediaAdapter implements MediaPlayer {
 

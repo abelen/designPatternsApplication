@@ -2,6 +2,7 @@ package structural.adapter;
 
 /**
  * Advanced Media Player interface
+ * Source code from http://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
  */
 public interface AdvancedMediaPlayer {
 

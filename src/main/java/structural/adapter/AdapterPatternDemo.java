@@ -2,6 +2,7 @@ package structural.adapter;
 
 /**
  * Client class that demonstrates the Adapter Pattern.
+ * Source code from http://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
  */
 public class AdapterPatternDemo {
 

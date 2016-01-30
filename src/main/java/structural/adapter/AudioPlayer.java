@@ -2,6 +2,7 @@ package structural.adapter;
 
 /**
  * Audio player class
+ * Source code from http://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
  */
 public class AudioPlayer implements MediaPlayer {
 
