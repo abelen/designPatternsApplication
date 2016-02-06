@@ -1,7 +1,7 @@
 package creational.prototype;
 
 /**
- * System abstract class
+ * System abstract class which acts the prototype that it can be used for the concrete subclasses.
  */
 public abstract class System  implements Cloneable {
 
